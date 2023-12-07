@@ -6,6 +6,6 @@ The horse as well as the rabbits which we wanted to eat has escaped
 It was my aunt's car which we sold at auction last year in February 
 Natural disasters -- storms, flooding, hurricanes -- occur infrequently but cause devastation that strains resources to breaking point
 Letters delivered on time by old-fashioned means are increasingly rare, so it is as well that that is not the only option available 
-English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thank you), and the existential `there' (there are horses but not unicorns) among others. 
+English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thank you), and the existential 'there' (there are horses but not unicorns) among others.
 The Penn Treebank tagset was culled from the original 87-tag tagset for the Brown Corpus.
 For example the original Brown and C5 tagsets include a separate tag for each of the different forms of the verbs do (e.g. C5 tag VDD for did and VDG tag for doing), be and have.
