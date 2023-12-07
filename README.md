@@ -3,7 +3,7 @@
 ## Results
 
 ### Berkeley Neural Parser
-| Sent. |  ID  | Len. | Stat. | Recal | Prec. | Bracket | Cross | Correct Tag | Bracket Words | Tags | Accracy |
+| ID  |  Sent. Len.  | Stat. | Recall | Precission | Matched Bracket | Bracket gold | Bracked test | Cross Bracked | Words | Correct Tags | POS Tag Accracy |
 |-------|:----:|:----:|:-----:|:-----:|:-----:|:-------:|:-----:|:-----------:|:--------------:|:----:|:-------:|
 |   1   |  9   |  0   | 62.50 | 71.43 |   5   |    8    |   7   |      1      |       9        |  9   | 100.00  |
 |   2   |  9   |  0   | 55.56 | 71.43 |   5   |    9    |   7   |      0      |       9        |  9   | 100.00  |
@@ -20,7 +20,7 @@
 
 
 ### Standford PCFG Parser
-| Sent. |  ID  | Len. | Stat. | Recal | Prec. | Bracket | Cross | Correct Tag | Bracket Words | Tags | Accracy |
+| ID  |  Sent. Len.  | Stat. | Recall | Precission | Matched Bracket | Bracket gold | Bracked test | Cross Bracked | Words | Correct Tags | POS Tag Accracy |
 |-------|:----:|:----:|:-----:|:-----:|:-----:|:-------:|:-----:|:-----------:|:--------------:|:----:|:-------:|
 |   1   |  9   |  0   | 62.50 | 83.33 |   5   |    8    |   6   |      1      |       9        |  9   | 100.00  |
 |   2   |  9   |  0   | 55.56 | 83.33 |   5   |    9    |   6   |      0      |       9        |  9   | 100.00  |
