@@ -1,3 +1,4 @@
-/home/lw754/L95/L95-parser/EVALB
+cd /home/lw754/L95/L95-parser/EVALB
 ./evalb -p results/sample.prm results/sample.gld results/berkeley.tst > results/results_berkeley.txt
 ./evalb -p results/sample.prm results/sample.gld results/standford.tst > results/results_standford.txt
+./evalb -p results/sample.prm results/sample.gld results/berkeley_new.tst > results/results_berkeley_new.txt
