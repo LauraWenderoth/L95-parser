@@ -1,6 +1,15 @@
-# L95-parser
+# Parsing Paradigms in Contrast: Quantitative Metrics and Qualitative Insights from a Eleven-Sentence Test
 
-## Results
+
+## Results of Quantitative Evaluation
+
+| Parser             | Recall (all) | Recall (short) | Precision (all) | Precision (short) | F1 (all) | F1 (short) | Tagging Accuracy (all) | Tagging Accuracy (short) |
+| ------------------ | ------------ | --------------- | --------------- | ----------------- | -------- | ----------- | ---------------------- | ------------------------- |
+| Stanford PCFG      | 43.33        | 58.33           | 54.97           | **71.19**          | 48.31    | **64.12**    | 89.76                  | **93.94**                |
+| Berkeley Neural    | **46.69**    | **59.72**       | **61.08**       | 66.15             | **52.93** | 62.77       | **91.71**              | **93.94**                |
+
+**Table 1:** Results of quantitative evaluation based on EVALB [Sekine & Collins, 1997] for Stanford PCFG parser and Berkeley neural parser.
+
 
 ### Berkeley Neural Parser
 | ID  |  Sent. Len.  | Stat. | Recall | Precission | Matched Bracket | Bracket gold | Bracked test | Cross Bracked | Words | Correct Tags | POS Tag Accracy |
